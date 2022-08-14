@@ -1,0 +1,824 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* .....................Home Page CSS STRAT........................ */
+.bg1 {
+  background-color: #1e4356;
+  background: url(./Image/Himg/hero-bg.jpg);
+  height: 400px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.bg1-text {
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg1-text button {
+  border: none;
+  background-color: transparent;
+  border: 2px solid #2878a3;
+  border-radius: 50px;
+  color: white;
+  padding: 13px 32px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.bg1-text button:hover {
+  background-color: #2878a3;
+}
+.logo{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* .header-scrolled{
+  background: rgba(30, 67, 86, 0.8)
+} */
+
+.icon-box {
+  padding: 30px;
+  box-shadow: 0 5px 26px 0 rgb(68 88 144 / 14%);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  margin: 50px 0px; 
+}
+.icon1 {
+  margin: 0 auto;
+  padding-top: 10px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: #fceef3;
+  border-radius: 50%;
+}
+.icon-box-pink:hover {
+  border: 1px solid #ff689b;
+}
+.icon1 i {
+  color: #ff689b;
+  font-size: 36px;
+  padding-top: 10px;
+}
+
+.icon-box h4 a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  margin: 10px auto;
+}
+.icon-box p {
+  color: grey;
+  font-size: 16px;
+  line-height: 28px;
+}
+.icon2 {
+  margin: 0 auto;
+  padding-top: 10px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: #e6fdfc;
+  border-radius: 50%;
+}
+.icon2 i {
+  color: #3fcdc7;
+  font-size: 36px;
+  padding-top: 10px;
+}
+.icon-box-blue:hover {
+  border: 1px solid #3fcdc7;
+}
+
+.icon3 {
+  margin: 0 auto;
+  padding-top: 10px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: #eafde7;
+  border-radius: 50%;
+}
+.icon3 i {
+  color: #41cf2e;
+  font-size: 36px;
+  padding-top: 10px;
+}
+.icon-box-green:hover {
+  border: 1px solid #41cf2e;
+}
+.icon4 {
+  margin: 0 auto;
+  padding-top: 10px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: #e1eeff;
+  border-radius: 50%;
+}
+.icon4 i {
+  color: #2282ff;
+  font-size: 36px;
+  padding-top: 10px;
+}
+.icon-box-sky:hover {
+  border: 1px solid #2282ff;
+}
+.video-section {
+  box-shadow: 0 5px 26px 0 rgb(68 88 144 / 14%);
+}
+.main-videobox {
+  display: flex;
+}
+.video-icos {
+  width: 20%;
+}
+.video-text {
+  width: 80%;
+}
+.video-text h4 a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.video-text h4 a:hover {
+  color: #68a4c4;
+}
+.video-text p {
+  color: grey;
+  line-height: 25px;
+}
+.video-icos {
+  color: #68a4c4;
+  font-size: 32px;
+}
+.features {
+  padding: 60px;
+}
+.features-data {
+  text-align: center;
+}
+.features-data h5 {
+  font-size: 30px;
+  margin: 20px auto;
+  display: block;
+}
+.rigth-text {
+  display: flex;
+}
+.features-texts h6 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin: 10px auto;
+  display: block;
+}
+.features-texts p {
+  color: grey;
+  font-style: italic;
+  font-size: 16px;
+}
+.rigth-text i {
+  color: #2282ff;
+  font-size: 16px;
+}
+.rigth-text p {
+  font-size: 16px;
+  font-style: normal;
+  margin-left: 20px;
+}
+#footer {
+  background-color: #0b212d;
+  padding: 20px 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-input input {
+  width: 100%;
+  padding: 8px 0px;
+  border-radius: 8px;
+}
+.footer-input input::placeholder {
+  text-align: center;
+ 
+}
+.footer-input button {
+  display: block;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px auto;
+}
+.footer-top h4 {
+  font-size: 28px;
+  margin: 10px 0 20px 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #a2cce3;
+}
+.footer-top p {
+  font-size: 15px;
+}
+
+
+.footer-middle {
+  background: #0d2735;
+  border-top: 1px solid #17455e;
+  border-bottom: 1px solid #123649;
+  padding: 40px 0 30px 0px;
+}
+.footer-middle h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #a2cce3;
+  position: relative;
+  padding-bottom: 12px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links ul li {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  line-height: 1;
+  font-size: 16px;
+}
+.footer-links ul li a:hover {
+  color: #a2cce3;
+}
+.footer-links ul li i {
+  color: #a2cce3;
+  line-height: 1;
+  margin-right: 10px;
+}
+.footer-contatct p {
+  line-height: 25px;
+  font-size: 16px;
+}
+.footer-about p {
+  line-height: 20px;
+  font-size: 16px;
+}
+.socail-media a {
+  width: 15px;
+  height: 36px;
+  background-color: #1e4356;
+  display: inline;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: 0.5s;
+  margin-right: 8px;
+}
+.socail-media a:hover {
+  background-color: #e1eeff;
+  color: #1e4356;
+}
+.copy-right {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 18px;
+}
+.credits {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  padding-top: 10px;
+}
+.credits a {
+  color: #a2cce3;
+  text-decoration: none;
+}
+
+/* ....................Services Page CSS STRAT..................... */
+.nav-bg {
+  background-color: #374b5f;
+  z-index: 9999; 
+  color: white !important;
+  /* margin-bottom: 10px; */
+}
+.nav-bg2{
+background: rgba(30, 67, 86, 0.8);
+  ;
+}
+/* .navbar{
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+.navbar2 {
+  padding: 15px 0px;
+  background-color: #f3f8fa;
+  margin-top: 58px;
+}
+.navbar2 h2 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.navbar2 ol {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar2 ol li {
+  font-size: 19px;
+  margin: 0px 8px;
+}
+/* .navbar li{
+  list-style: none;
+}
+.navbar li a{
+  color: #fff;
+} */
+.card-body {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  margin-top: -60px;
+}
+.card {
+  position: relative;
+  padding: 0px 30px;
+  margin-bottom: 60px;
+}
+.card-img {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+}
+.card-img img {
+  max-width: 100%;
+}
+.card-body h3 {
+  text-align: center;
+  color: #123649;
+  margin-bottom: 20px;
+  font-weight: 700s;
+}
+.card-body p {
+  color: #5e5e5e;
+  line-height: 22px;
+}
+.Read-more a {
+  color: #5e5e5e;
+  transition: 0.2s;
+  font-weight: 500;
+}
+.Read-more a:hover {
+  color: #123649;
+}
+.pricing {
+  background-color: #ebeff1;
+  padding: 30px;
+  text-align: center;
+}
+.pricing-text h4 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgb(73 78 92 / 15%);
+  background: #fff;
+  text-align: center;
+}
+.box h3 {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.box h4 {
+  font-size: 46px;
+  color: #68a4c4;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+.box h4 span {
+  color: #bababa;
+  font-size: 18px;
+  display: block;
+}
+
+.box ul {
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  color: #999;
+}
+.box ul li {
+  margin: 15px 0px;
+}
+.box ul li i {
+  color: #68a4c4;
+  font-size: 18px;
+  padding-right: 4px;
+}
+.box ul li span {
+  text-decoration: line-through;
+}
+.pricing-btn button {
+  margin-top: 15px;
+  padding: 6px 30px;
+  border-radius: 50px;
+  background-color: #1e4356;
+  color: #ffff;
+  font-size: 18px;
+  border: none;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+.pricing-btn button:hover {
+  background-color: #fff;
+  color: #1e4356;
+  border: 2px solid #1e4356;
+}
+
+/* .......................About Page CSS Start................. */
+
+.about-main-text {
+  padding: 30px;
+  margin: 20px 0px;
+}
+.about-text h3 {
+  font-weight: 400;
+}
+.counter {
+  background-color: #f3f8fa;
+  padding: 30px 0px;
+}
+.counter span {
+  display: block;
+  font-size: 48px;
+  color: #68a4c4;
+}
+.progress {
+  height: 38px;
+  margin-bottom: 15px;
+}
+.skills {
+  text-align: left;
+  margin: 0px 0px 0px 20px;
+  padding: 0;
+  font-size: 18px;
+}
+.val {
+  float: right;
+  font-size: normal;
+  margin-right: 10px;
+}
+.skils-haiding {
+  text-align: center;
+}
+.skils-haiding h4 {
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  position: relative;
+}
+.skils-haiding h4::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.skils-haiding h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #68a4c4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.about-slider-img img {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  border-radius: 50%;
+}
+.about-slider-img h5 {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.about-slider-img h6 {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+}
+.about-slider-img p {
+  text-align: center;
+  font-style: italic;
+}
+.carousel-indicators2 {
+  display: flex;
+  justify-content: center;
+}
+.carousel-indicators2 button {
+  margin: 10px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #68a4c4;
+  border-radius: 50px;
+  transition: 0.3;
+}
+.carousel-indicators2 button:hover {
+  background-color: #68a4c4;
+}
+
+/* ......Contact Page CSS STRAT..... */
+.contact {
+  box-shadow: 0 0 30px rgba(223, 224, 226, 0.6);
+  padding: 30px;
+  margin: 30px 0px;
+}
+.info-box {
+  color: #444;
+  text-align: center;
+  box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+  padding: 20px 0 30px 0;
+  margin: 30px 0px;
+}
+.info-box i {
+  font-size: 32px;
+  color: #68a4c4;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #a2cce3;
+}
+.info-box h3 {
+  font-size: 20px;
+  color: #666;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+/*.................... Team CSS START.................... */
+.team img {
+  width: 100%;
+}
+.team-info {
+  box-sizing: border-box;
+}
+.team-info h3 {
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.team-info span {
+  display: block;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #68a4c4;
+}
+.team-info p {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 26px;
+  color: #666;
+}
+/*.............. BLOG PAGE CSS START ................*/
+.blog {
+  padding: 20px;
+  margin-bottom: 60px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+.blog h2 a {
+  color: #1e4356;
+  transition: 0.3s;
+  font-size: 28px;
+  font-weight: bold;
+}
+.blog h2 a:hover {
+  color: #0b212d;
+}
+
+.blog ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.blog ul li {
+  margin: 10px;
+}
+.blog ul li i {
+  font-size: 16px;
+  color: #9ec0ec;
+}
+.blog ul li a {
+  font-size: 16px;
+  color: #777777;
+}
+.blog p {
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  font-size: 18px;
+}
+
+.blog-btn {
+  text-align: end;
+}
+.blog-btn button {
+  background: #68a4c4;
+  color: #fff;
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+  border: none;
+}
+.sidebar {
+  padding: 30px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+.sidebar {
+  color: #1e4356;
+  font-size: 20px;
+}
+.serach-form input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 100%;
+}
+.serach-form form {
+  background: #fff;
+  position: relative;
+}
+.serach-form button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 0px;
+  background: #68a4c4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+.sidebar-category ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar-category ul li {
+  padding-top: 10px;
+}
+.sidebar-category ul a {
+  color: #1e4356;
+  transition: 0.5s;
+}
+.sidebar-category ul a:hover {
+  color: #0d6efd;
+}
+.sidebar-category ul span {
+  padding-left: 5px;
+  color: #aaaaaa;
+  font-size: 17px;
+}
+.main-post {
+  display: flex;
+  margin: 20px 0px;
+}
+.post-text h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.post-text h4 a {
+  color: #1e4356;
+  transition: 0.5s;
+}
+.post-text h4 a:hover {
+  color: black;
+}
+.post-text span {
+  display: block;
+  margin: 5px 0px 0px 10px;
+  font-style: italic;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.tags h3 {
+  padding: 10px 0px;
+}
+.recent-post h3 {
+  padding: 10px 0px;
+}
+.tags ul {
+  padding: 0;
+  list-style: none;
+}
+.tags li {
+  display: inline-block;
+  padding: 5px;
+}
+.tags li a {
+  color: #3f8db5;
+  font-size: 16px;
+  padding: 6px 14px;
+  margin: 0 6px 8px 0;
+  border: 1px solid #a1afb6;
+  display: inline-block;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+.tags li a:hover {
+  background-color: #3f8db5;
+  color: #fff;
+}
+/* Portfolie CSS STRAT */
+.portfolie-btn{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.portfolie-btn button{
+ padding: 10px 15px;
+ margin: 0px 18px;
+ border: none;
+ background: none;
+ font-size: 20px;
+ font-weight: 500;
+ color: #444;
+ transition: all 0.3s ease-in-out;
+ border-bottom: 2px solid #fff;
+ font-family: "Roboto", sans-serif;
+ cursor: pointer;
+}
+#portfolie-img{
+  margin-bottom: 20px;
+}
+.portfolie-btn button:hover{
+  border-color: #68A4C4;
+  color: #68A4C4;
+}
+.navbar button i{
+  color: white !important;
+  font-size: 35px;
+  border: none;
+}
+
+@media screen and (max-width: 792px){
+  .bg1-text{
+    display: none;
+  }
+  .bg1{
+    background-size: 100%;
+    height: 300px;
+  }
+  .icon-box{
+    margin: 0;
+  }
+  
+}
